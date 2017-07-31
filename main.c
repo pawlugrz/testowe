@@ -25,6 +25,11 @@ void test()
 	printf("test");
 }
 
+void test2()
+{
+	printf("test2");
+}
+
 int main()
 {
  int x=5, y=6;
