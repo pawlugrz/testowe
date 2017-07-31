@@ -28,6 +28,7 @@ int main()
  printf("Sum %d and %d = %d\n",x,y,sum(x,y));
  printf("Subtraction of %d and %d = %d\n",x,y,subtract(x,y));
  printf("%d divided by %d = %.2f\n",x,y,divide(x,y));
+ print
  return 0;
 }
 
