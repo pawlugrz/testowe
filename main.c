@@ -15,6 +15,11 @@ int subtract(int a, int b)
 	return a-b;
 }
 
+float divide(int a, int b)
+{
+	return (float)a / (float)b;
+}
+
 int main()
 {
  int x=5, y=6;
@@ -22,6 +27,7 @@ int main()
  printf("%d to the power = %d\n",x,power(5));
  printf("Sum %d and %d = %d\n",x,y,sum(x,y));
  printf("Subtraction of %d and %d = %d\n",x,y,subtract(x,y));
+ printf("%d divided by %d = %.2f\n",x,y,divide(x,y));
  return 0;
 }
 
